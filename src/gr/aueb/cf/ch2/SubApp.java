@@ -7,6 +7,8 @@ public class SubApp {
         int result = 0;
 
         result = sub(num1, num2);
+
+        System.out.printf("Sub is %d", result);
     }
 
     public static int sub(int a, int b){
